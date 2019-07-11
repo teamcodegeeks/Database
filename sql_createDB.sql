@@ -233,7 +233,7 @@ GO
 INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(1,'Sam', '123123123', '123123123@gmail.com', 1,'Consumers')
 INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(2,'Dean', '123123123', '111111111@gmail.com',1,'Consumers')
 INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(3,'Cass', '123123123', '321321321@gmail.com',2,'Customer')
-INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(4,'Sam', '123123123', '13434123@gmail.com', 3,'Admin')
+INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(4,'Sama', '123123123', '13434123@gmail.com', 3,'Admin')
 INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(5,'Lana', '123123123', '55342344@gmail.com',3,'Admin')
 INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(6,'Alex', '123123123', '34234232@gmail.com',3,'Admin')
 INSERT "User"("UserID","UserName","Password","Email","UserRoleId","RoleDescription") VALUES(7,'Sakura', '123123123', '54231231@gmail.com', 2,'Customer')
