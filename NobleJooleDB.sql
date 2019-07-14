@@ -68,7 +68,7 @@ CREATE TABLE "User" (
 	"Password" nvarchar (50) NOT NULL,
 	"Email" nvarchar (300) NOT NULL,
 	"UserRoleId" tinyint NOT NULL,
-	"Picture" varbinary(max),
+	"Picture" varchar(1000),
 	"RoleDescription" nvarchar(40) NOT NULL,
 	CONSTRAINT "Joojle_PK_User" PRIMARY KEY  CLUSTERED 
 	("UserID"),
@@ -169,6 +169,7 @@ CREATE TABLE "Product" (
 	"ModelTypeId" int NOT NULL,
 	"ModelId" int NOT NULL,
 	"SubCategoryId" int NOT NULL,
+	"ImageURL" varchar(1000), 
 	CONSTRAINT "Joojle_PK_Product" PRIMARY KEY  CLUSTERED 
 	("ProductId"),
 	CONSTRAINT "Joojle_FK_Product_Model" FOREIGN KEY 
